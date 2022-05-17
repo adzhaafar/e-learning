@@ -6,20 +6,20 @@ function Login() {
     <div>
         <h1>Login</h1>
           <form action="" target="" method="POST">
-              <label for="id_of_input">Email</label>
-              <input type="email" placeholder="username@gmail.com"></input>
-              <br/>
-              <label for="" >Password</label>
-              <input type="password" placeholder="password"></input>
-              <br/>
-              <Link to="/">Forgot Password?</Link>
-              <br/>
-              <button type="submit">Sign in</button>
-               <h6>or continue with</h6> 
-                <button>Google</button>
-                <button>Apple</button>
-                <button>FaceBook</button>
-              <h6>Don't have an account? <Link to="/signup">Sign up</Link></h6>
+                <label>Email</label>
+                <input type="email" placeholder="username@gmail.com"></input>
+                <br/>
+                <label>Password</label>
+                <input type="password" placeholder="password"></input>
+                <br/>
+                <Link to="/">Forgot Password?</Link>
+                <br/>
+                <button type="submit">Sign in</button>
+                <h6>or continue with</h6> 
+                  <button>Google</button>
+                  <button>Apple</button>
+                  <button>FaceBook</button>
+                <h6>Don't have an account? <Link to="/signup">Sign up</Link></h6>
         </form>
     </div>
 
